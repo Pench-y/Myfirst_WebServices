@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url('../img/politecnico-internacional-banner.jpg');
+    background-size: cover;
+}
+
+.Titulo{
+    
+    margin-top: 20px;
+  
+}
+
+
+
+.Titulo2{
+    
+    position: absolute;
+    
+    background:rgba(8, 8, 8, 0.233);
+    border-radius: 20px;
+    width: 380px;
+    height: 450px;
+    margin-left: 25px;
+    margin-top: 50px;
+    box-shadow: 20px 10px 5px rgba(19, 18, 18, 0.432);
+  
+}
+
+
+
+.D1{
+    
+
+    
+    width: 170px;
+    height: 85px;
+    margin-left: 180px;
+   
+  
+}
+
+
+.Titulo3{
+    
+    position: absolute;
+    background:rgba(17, 17, 17, 0.233);
+    border-radius: 20px;
+    width: 380px;
+    height: 450px;
+    margin-left: 490px;
+    margin-top: 50px;
+    box-shadow: 20px 10px 5px rgba(19, 18, 18, 0.432);
+  
+}
+
+.D2{
+    
+
+    
+    width: 350px;
+    height: 150px;
+    margin-left: 15px;
+   
+   
+  
+}
+
+
+
+.Titulo4{
+    
+    position: absolute;
+    background:rgba(17, 17, 17, 0.233);
+    border-radius: 20px;
+    width: 380px;
+    height: 450px;
+    margin-left: 950px;
+    margin-top: 50px;
+    box-shadow: 20px 10px 5px rgba(19, 18, 18, 0.432);
+  
+}
+
+.Perfil{
+    
+    position: absolute;
+    background:rgba(12, 31, 201, 0.233);
+    border-radius: 20px;
+    width: 300px;
+    height: 80px;
+    margin-left: 45px;
+    margin-top: 50px;
+  
+}
+
+
+.Hoja{
+    
+    position: absolute;
+    background:rgba(12, 31, 201, 0.233);
+    border-radius: 20px;
+    width: 300px;
+    height: 80px;
+    margin-left: 45px;
+    margin-top: 190px;
+  
+}
+
+
+.Oferta{
+    
+    position: absolute;
+    background:rgba(12, 31, 201, 0.233);
+    border-radius: 20px;
+    width: 300px;
+    height: 80px;
+    margin-left: 45px;
+    margin-top: 320px;
+  
+}
+
+

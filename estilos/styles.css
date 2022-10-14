@@ -1,0 +1,213 @@
+﻿body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    min-height: 70px;
+    background-color: #06283D;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.nombre_empresa{
+    color: #FFF;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 15px;
+}
+
+.nav_link {
+    font-weight: 600;
+    padding-right: 10px;
+    color: white;
+}
+
+    .nav_link:hover {
+        color: #1363DF;
+    }
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: #F5F5F5;
+    background-size: cover;
+    background-position: center;
+    transition: all .1s ease-in-out;
+    background-image: url('../img/banner-1.png');
+    animation: banner 28s infinite linear;
+}
+
+.banner-content{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    color:#FFF;
+    background-color: rgba(0, 22, 40, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content h1{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+ }
+
+.banner-content a {
+        color: #FFF;
+        padding: 9px 20px;
+        border: 1px solid white;
+        /* text-transform: uppercase;*/
+        transition: all .3s ease-in-out;
+}
+
+.banner-content a:hover{
+    background-color: #DFF6FF;
+    color: #333;
+}
+
+.menu {
+    height: calc(20vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 70px;
+    background-color: #06283D;
+    top: 101%;
+    font-family: sans-serif;
+}
+
+.opc_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 22, 40, .9);
+}
+.opc_menu a {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    padding: 30px 40px;
+    font-family: sans-serif;
+    display: inline-block;
+    margin: 15px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+    transition: all .4s ease-in-out;
+    border-radius: 5px;
+}
+
+.opc_menu a:hover {
+    color: black;
+    background-color:cornsilk;
+}
+
+.blog {
+    background-color: #DFF6FF;
+    color: black;
+    padding-top: 40px;
+}
+
+.blog h1{
+    padding-bottom: 15px;
+}
+
+.blog p{
+    padding-bottom: 15px;
+}
+
+.Gastronomia-left{
+    float: left;
+    width: 50%;
+    padding-right: 40px;
+}
+
+.Eventos-left {
+    float: left;
+    width: 50%;
+    padding-right: 40px;
+}
+
+.Cultura-left {
+    float: left;
+    width: 50%;
+    padding-right: 40px;
+}
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer img {
+    /*display:block;
+    margin:auto;*/
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes banner {
+    0% {
+        background-image: url('../img/banner-1.png');
+    }
+    25% {
+        background-image: url('../img/banner-1.png');
+    }
+
+    26% {
+        background-image: url('../img/banner-2.png');
+    }
+    50% {
+        background-image: url('../img/banner-2.png');
+    }
+
+    51% {
+        background-image: url('../img/banner-3.png');
+    }
+    75% {
+        background-image: url('../img/banner-3.png');
+    }
+
+    76% {
+        background-image: url('../img/banner-4.png');
+    }
+    100% {
+        background-image: url('../img/banner-4.png');
+    }
+}
+
+@media (max-width:700px) {
+        header{
+       flex-direction: column;
+}
+
+nav{
+       padding: 10px 0px;
+}
+}
